@@ -8,7 +8,7 @@ export function find_style_loaders(configuration)
 {
 	const style_loaders = []
 
-	for (let loader of configuration.module.loaders)
+	for (let loader of configuration.module.rules)
 	{
 		let loaders = loader.loaders
 

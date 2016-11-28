@@ -35,7 +35,7 @@ function find_style_loaders(configuration) {
 	var _iteratorError = undefined;
 
 	try {
-		for (var _iterator = (0, _getIterator3.default)(configuration.module.loaders), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+		for (var _iterator = (0, _getIterator3.default)(configuration.module.rules), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
 			var loader = _step.value;
 
 			var loaders = loader.loaders;
