@@ -49,7 +49,7 @@ Chunk_file_names_plugin.prototype.apply = function(compiler)
 		{
 			// outputs stats info to the console
 			// (only needed in development mode)
-			output_webpack_stats(stats, json)
+			// output_webpack_stats(stats, json)
 		}
 
 		// "publicPath" (will be prepended to chunk file names)
